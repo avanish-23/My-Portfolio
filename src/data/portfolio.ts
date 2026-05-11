@@ -26,7 +26,7 @@ export const navItems: NavItem[] = [
 export const profile = {
   name: "Avanish Kumar",
   tagline: "Frontend Developer | MERN Stack Learner | Responsive UI Builder",
-  headline: "Building clean, job-ready web experiences from the ocean floor up.",
+  headline: "Frontend-focused developer crafting polished, job-ready web experiences.",
   availability: "Open to Frontend and MERN developer opportunities",
   summary:
     "Motivated and detail-oriented fresher with strong frontend development skills and ongoing MERN stack training from CETPA Infotech. I enjoy crafting responsive, user-friendly experiences that feel polished, fast, and memorable.",
@@ -42,6 +42,19 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/avanish-kumar-131419257/",
   instagram: "https://www.instagram.com/your-instagram-handle/",
 };
+
+export const recruiterPoints = [
+  "Responsive UI development with React and Tailwind CSS",
+  "Strong interest in product-quality frontend execution",
+  "Actively growing into full-stack MERN workflows",
+];
+
+export const recruiterTags = [
+  "Available for internships",
+  "Frontend roles",
+  "MERN learner",
+  "Immediate portfolio review",
+];
 
 export const socialLinks: SocialLink[] = [
   {
@@ -159,6 +172,8 @@ export const projects = [
     title: "School Website",
     status: "Built",
     icon: "fas fa-school",
+    label: "Responsive Website",
+    outcome: "Reusable school UI system",
     description:
       "A modern responsive school website built with reusable React components and Tailwind CSS for a clean, accessible experience.",
     bullets: [
@@ -173,6 +188,8 @@ export const projects = [
     title: "Portfolio Website",
     status: "Built",
     icon: "fas fa-id-card",
+    label: "Personal Brand",
+    outcome: "Recruiter-ready digital profile",
     description:
       "A personal portfolio website designed to showcase skills, resume, and recruiter-friendly contact options in a polished way.",
     bullets: [
@@ -187,6 +204,8 @@ export const projects = [
     title: "MERN Practice Lab",
     status: "Ongoing",
     icon: "fas fa-flask",
+    label: "Training Project",
+    outcome: "Full-stack workflow practice",
     description:
       "Hands-on training work from CETPA focused on learning MongoDB, Express.js, React.js, and Node.js through real-world practice builds.",
     bullets: [
